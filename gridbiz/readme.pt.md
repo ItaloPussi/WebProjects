@@ -2,7 +2,7 @@
 
 <a href="https://github.com/ItaloPussi/WebProjects/tree/master/gridbiz/readme.md"> English Version</a> 👈
 
-Um projeto feito para praticar responsivilidade e CSS Grid.
+Um projeto feito para praticar Responsividade e CSS Grid.
 
 ## Uso
 Apenas clone o diretório e abra o arquivo ```index.html```
@@ -10,7 +10,7 @@ Apenas clone o diretório e abra o arquivo ```index.html```
 ## Principais conceitos abordados
 	- Flex;
     - Grid CSS;
-    - Responsibilidade;
+    - Responsividade;
     - Variáveis CSS;
 
 ## Contribuindo

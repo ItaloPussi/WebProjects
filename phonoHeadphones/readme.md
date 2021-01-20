@@ -2,15 +2,15 @@
 
 <a href="https://github.com/ItaloPussi/WebProjects/tree/master/phonoHeadphones/readme.pt.md">Versão em Português</a> 👈
 
-A project made to practice CSS Grid, site responsiveness and Netlify deploy!
+A project made to practice CSS Grid, responsive web design and Netlify deploy!
 
 ## Use
-If you wanna see the preview of this project. look here:
+If you wanna see the preview of this project, just access the link:
 <a href="https://italopussi-phonoheadphones.netlify.app/" target="_blank"> https://italopussi-phonoheadphones.netlify.app/</a>
 
 ## Key concepts learned
 	- CSS Grid;
-    - Responsiveness;
+    - Responsive Design;
     - Flex;
     - CSS Variables;
     - Netlify Deploy;

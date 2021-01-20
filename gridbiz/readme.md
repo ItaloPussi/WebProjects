@@ -2,14 +2,14 @@
 
 <a href="https://github.com/ItaloPussi/WebProjects/tree/master/gridbiz/readme.pt.md">Versão em Português</a> 👈
 
-A project made to practice CSS Grid and site responsiveness
+A project made to practice CSS Grid and responsive web design 
 
 ## Use
 Just clone the directory and open the ```index.html``` file.
 
 ## Key concepts learned
 	- CSS Grid;
-    - Responsiveness;
+    - Responsive Design;
     - Flex;
     - CSS Variables;
 
