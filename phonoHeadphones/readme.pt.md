@@ -5,7 +5,7 @@
 Um projeto feito para praticar responsividade, CSS Grid e deploy pelo Netlify.
 
 ## Uso
-Se você quiser visualizar a preview desse projeto, simplesmente acesse o link:
+Se você quiser visualizar o preview desse projeto, simplesmente acesse o link:
 <a href="https://italopussi-phonoheadphones.netlify.app/" target="_blank"> https://italopussi-phonoheadphones.netlify.app/</a>
 
 ## Principais conceitos abordados
