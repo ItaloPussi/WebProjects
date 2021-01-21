@@ -97,6 +97,10 @@ code, pre {
     overflow: visible;
 }
 
+.showcase-text {
+    animation: slideInFromLeft 1s ease-in;
+}
+
 .showcase-form {
     position: relative;
     top: 60px;
@@ -105,6 +109,7 @@ code, pre {
     padding: 40px;
     z-index: 100;
     justify-self: flex-end;
+    animation: slideInFromRight 1s ease-in;
 }
 
 .showcase-form .form-control {
@@ -141,6 +146,7 @@ code, pre {
 /*  Stats */
 .stats {
     padding-top: 100px;
+    animation: slideInFromBottom 1s ease-in;
 }
 
 .stats .grid h3 {
@@ -254,13 +260,55 @@ code, pre {
     margin: 0 10px;
 }
 
+/* Animations */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
 /* Tablets and under */
 @media(max-width: 768px){
     .grid,
     .showcase .grid,
     .stats .grid,
     .cli .grid,
-    .cloud .grid {
+    .cloud .grid,
+    .features-head .grid,
+    .features-sub-head .grid,
+    .features-main .grid,
+    .docs-head .grid,
+    .docs-main .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
@@ -279,12 +327,29 @@ code, pre {
         margin: auto;
     }
 
+    .features-head,
+    .features-sub-head,
+    .docs-head {
+        text-align: center;
+    }
+
+    .features-head img,
+    .features-sub-head img,
+    .docs-head img{
+        justify-self: center;
+    }
+
     .cli .grid {
         grid-template-areas: 
             'cli'
             'card1'
             'card2';
     }
+
+    .features-main .grid > *{
+        grid-column: 1 / 2;
+    }
+
 }
 
 /* Mobile */
@@ -302,7 +367,13 @@ code, pre {
         background-color: rgba(0, 0, 0, 0.1);
     }
 
+    .showcase-text {
+        animation: slideInFromTop 1s ease-in;
+
+    }
     .showcase-form {
         width: 300px;
+        animation: slideInFromBottom 1s ease-in;
+
     }
 }
