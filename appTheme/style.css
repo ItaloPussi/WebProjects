@@ -1,0 +1,239 @@
+:root {
+    --base-color: #56a79a;
+}
+
+body {
+    font-family: "Open-sans", sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+}
+
+/* General Styles */
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #888;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: auto;
+}
+
+/* Common Classes */
+.text-primary, .primary-text {
+    color: var(--base-color);
+}
+
+/* Header */
+#main-header {
+    border-bottom: 1px solid var(--base-color);
+}
+
+/* Navbar */
+#navbar {
+    text-transform: uppercase;
+}
+
+#navbar li {
+    display: inline;
+    padding-right: 20px;
+}
+
+#navbar li.current a, #navbar a:hover{
+    color: var(--base-color);
+    border-bottom: 3px solid var(--base-color);
+    padding-bottom: 5px;
+}
+
+/* Showcase */
+#showcase  {
+    background: url("./img/showcase.jpg") no-repeat center center/cover;
+    border-bottom: 1px solid var(--base-color);
+    margin-bottom: 30px;
+}
+
+#showcase .row {
+    height: 600px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#showcase p {
+    margin: 0;
+    color: #ccc;
+}
+
+#showcase .showcase-content {
+    background: #333;
+    color: #fff;
+    border-radius: 90px;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+/* Features */
+#features h2{
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#features p{
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#features .fa{
+    font-size: 60px;
+    color: var(--base-color)
+}
+
+/* Info */
+#info{
+    background: #333 url("./img/info-bg.jpg") no-repeat center center/cover;
+    color: #fff;
+}
+
+#info h2{
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#info ul{
+    padding: 0;
+}
+
+#info li{
+    line-height: 2em;
+    font-size: 20px;
+}
+
+
+/* Company */
+#company {
+    background: #333;
+    color: #fff;
+    padding: 10px 0; 
+}
+
+#company h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#company ul{
+    padding: 0;
+    line-height: 2em;
+}
+
+#company input[type="text"]{
+    padding: 7px;
+}
+
+#company button{
+    background: #222;
+    color:white;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+/* Footer */
+#main-footer {
+    background: var(--base-color);
+    color: white;
+    margin: auto;
+}
+
+/* Page */
+#page{
+    margin-bottom: 40px;
+}
+
+/* Subheader */
+#subheader {
+    background: #333;
+    color: white;
+}
+
+/* Services */
+.services ul li{
+    padding: 10px 20px;
+}
+
+.services li:nth-child(odd){
+    background: #333;
+    color: white;
+}
+
+.services li:nth-child(even){
+    background: var(--base-color);
+    color: white;
+}
+
+/* Contact */
+.contact form{
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.contact form input[type="text"]{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact form textarea{
+    width: 50%;
+    height: 100px;
+}
+
+.contact form button{
+    width: 50%;
+    padding: 10px 0;
+    border: 0;
+    background: #222;
+    color:#fff;
+}
+
+.contact form label{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Media queries */
+@media (max-width: 800px){
+    #showcase h1{
+        font-size: 30px;
+    }
+    #subheader {
+        padding-left:20px;
+    }
+}
+@media (max-width: 500px){
+    #showcase .showcase-content{
+        padding: 40px 10px;
+    }
+    
+}
