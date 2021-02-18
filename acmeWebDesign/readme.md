@@ -2,7 +2,7 @@
 
 <a href="https://github.com/ItaloPussi/WebProjects/tree/master/acmeWebDesign/readme.pt.md">Versão em Português</a> 👈
 
-A project made to practice CSS Grid, semantics tag, responsive web design and Netlify deploy!
+A project made to practice CSS Grid, semantic tags, responsive web design and Netlify deploy!
 
 ## Use
 If you wanna see the preview of this project, just access the link:
@@ -11,7 +11,7 @@ If you wanna see the preview of this project, just access the link:
 ## Key concepts learned
 	- CSS Grid;
     - Responsiveness;
-    - Semantics tag;
+    - Semantic tags;
     - Media-queries;
 
 ## Contributing
